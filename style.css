@@ -1,11 +1,14 @@
 header {
     background: #BBBBBB;
     padding: 20px 0;
+    /* Espaçamento interno */
 }
 
 .caixa {
     position: relative;
+    /* Posição relativa para subir a caixa e centralizar conteúdo */
     width: 940px;
+    /* Largura */ 
     margin: 0 auto;
 }
 
@@ -13,6 +16,7 @@ nav {
     position: absolute;
     top: 110px;
     right: 0;
+    /* Define uma posição absoluta em relação a pagina */ 
 }
 nav li {
     display: inline;
@@ -27,6 +31,7 @@ nav a {
     text-decoration: none;
 }
 
+/* :hover serve para escolher ação ao passar mouse em cima */ 
 nav a:hover {
     color: #C78C19;
     text-decoration: underline;
@@ -54,6 +59,7 @@ nav a:hover {
     border-color: #C78C19;
 }
 
+/* :active serve para escolher ação quando clicar */ 
 .produtos li:active {
     border-color: #088C19;
 }
@@ -146,4 +152,38 @@ thead {
 td, th {
     border: 1px solid #000000;
     padding: 8px 15px;
+}
+
+/* css da página inicial*/
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imagembeneficios {
+    width: 60%;
 }
