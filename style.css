@@ -236,6 +236,11 @@ td, th {
     line-height: 1.5;
 }
 
+/*Usado para adicionar algo antes de algum conteudo*/
+.itens:before {
+    content: "★";
+}
+
 /*Usado para selecionar um elemento específico da lista*/
 /*Obs.:Podemos usar também o exemplo: nth-child(1) para selecionar um elemento em ordem numérica*/
 /*Obs.:Podemos usar também o exemplo: nth-child(2n) para selecionar todos elementos pares*/
