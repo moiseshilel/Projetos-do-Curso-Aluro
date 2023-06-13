@@ -195,6 +195,12 @@ td, th {
 
 .mapa {
     padding: 3em 0;
+    /*Usado para adicionar cor gradiente ao background*/
+    /*Para personalizar ainda mais podemos usar: linear-gradient(90deg, orange 50%, blue, white);*/
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa-conteudo {
     width: 940px;
     margin: 0 auto;
 }
