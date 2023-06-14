@@ -259,10 +259,10 @@ td, th {
 
 /*Entregando estilo diferente para dispositivo diferente de acordo com os pixels da tela para que seja responsivo*/
 @media (max-width: 480px) {
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .caixa h1 {
         width: auto;
     }   
-    h1 {
+    h1, nav ul {
         text-align: center;
     }
 
@@ -272,6 +272,18 @@ td, th {
 
     .lista-beneficios, .imagem-beneficios {
         width: 100%;
+    }
+
+    ul.produtos {
+        width: auto;
+
+    }
+
+    .produtos li {
+        display: block;
+        width: auto;
+        margin: 30px;
+
     }
 }
 
