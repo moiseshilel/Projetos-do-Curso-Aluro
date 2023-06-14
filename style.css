@@ -259,5 +259,19 @@ td, th {
 
 /*Entregando estilo diferente para dispositivo diferente de acordo com os pixels da tela para que seja responsivo*/
 @media (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }   
+    h1 {
+        text-align: center;
+    }
 
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
 }
+
