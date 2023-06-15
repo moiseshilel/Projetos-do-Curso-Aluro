@@ -263,7 +263,7 @@ td, th {
 
 /*Entregando estilo diferente para dispositivo diferente de acordo com os pixels da tela para que seja responsivo*/
 @media (max-width: 480px) {
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .caixa h1 {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .caixa h1 {
         width: auto;
     }   
     h1, nav ul {
@@ -274,8 +274,9 @@ td, th {
         position: static;
     }
 
-    .lista-beneficios, .imagem-beneficios {
+    .lista-beneficios {
         width: 100%;
+
     }
 
     ul.produtos {
@@ -287,7 +288,30 @@ td, th {
         display: block;
         width: auto;
         margin: 30px;
+    }
 
+    main form {
+        width: auto;
+        margin: 2em auto;
+        
+    }
+
+    form {
+        width: auto;
+        margin: 40px auto; 
+        padding-left: 30px;   
+    }
+
+    .produtos li:hover h2 {
+        font-size: 33px;
+
+    }    
+    .video, .imagem-beneficios  {
+        margin: 1em;
+        width: 92%;
+    }
+
+    .itens {
+        padding-left: 30px;
     }
 }
-
