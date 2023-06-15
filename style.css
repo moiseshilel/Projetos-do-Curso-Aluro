@@ -68,11 +68,11 @@ nav a:hover {
 }
 
 .produtos li:hover h2 {
-    font-size: 34px;
+    font-size: 30px;
 }
 
 .produtos h2 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -98,6 +98,10 @@ footer {
     margin-top: 20px;
 }
 
+main form {
+    width: 940px;
+    margin: 40px auto;
+}
 form {
     margin: 40px 0;
 }
