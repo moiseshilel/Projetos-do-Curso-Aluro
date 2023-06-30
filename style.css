@@ -318,4 +318,9 @@ td, th {
     .input-padrao {
         margin: 10px 10px 20px;
     }
+
+    .enviar {
+        width: 50%;
+        margin: 0px 0px 0px 10px;
+    }
 }
