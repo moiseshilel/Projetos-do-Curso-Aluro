@@ -314,4 +314,8 @@ td, th {
     .itens {
         padding-left: 30px;
     }
+    
+    .input-padrao {
+        margin: 10px 10px 20px;
+    }
 }
